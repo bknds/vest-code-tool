@@ -1,6 +1,5 @@
 const ora = require('ora')
 const chalk = require('chalk')
-
 const spinner = ora()
 let lastMsg = null
 

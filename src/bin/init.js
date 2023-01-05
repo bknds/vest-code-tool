@@ -8,11 +8,13 @@ const {
   error,
   stopSpinner,
   exit,
+  info,
   clearConsole,
 } = require('./utils/common')
 
 async function create(options) {
-  console.log('options')
+  info('msg', 'tag')
+  return
   const { PROJECT_NAME, MIX_NAME } = await inquirer.prompt([
     {
       name: 'PROJECT_NAME',

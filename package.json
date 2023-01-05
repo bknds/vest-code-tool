@@ -1,7 +1,7 @@
 {
   "name": "vest-code-tool",
   "version": "1.0.0",
-  "description": "白包辅助脚手架工具",
+  "description": "Flutter白包基础模板代码、垃圾代码生成辅助工具",
   "bin": {
     "vest": "src/bin/main.js"
   },
